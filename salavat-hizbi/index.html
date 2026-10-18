@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <title>Salavat Hizbi | Vird</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0d211a;
+      --card: #132b22;
+      --text: #f7f1df;
+      --muted: #b9b3a5;
+      --gold: #c9a85c;
+      --line: rgba(201,168,92,.22);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: var(--bg);
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Noto Naskh Arabic", serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding:
+        calc(28px + env(safe-area-inset-top))
+        22px
+        calc(60px + env(safe-area-inset-bottom));
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 34px;
+      direction: ltr;
+    }
+
+    .brand {
+      color: var(--gold);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      letter-spacing: 0.16em;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 26px;
+      font-weight: 600;
+    }
+
+    .dua {
+      font-size: clamp(29px, 7.2vw, 38px);
+      line-height: 2.05;
+      text-align: right;
+      direction: rtl;
+      unicode-bidi: plaintext;
+    }
+
+    .dua p {
+      margin: 0 0 30px;
+    }
+
+    .separator {
+      width: 42px;
+      height: 1px;
+      background: var(--gold);
+      opacity: .55;
+      margin: 38px auto;
+    }
+
+    .note {
+      direction: ltr;
+      text-align: center;
+      color: var(--gold);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      margin: -12px 0 32px;
+    }
+
+    footer {
+      direction: ltr;
+      text-align: center;
+      color: var(--muted);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 12px;
+      margin-top: 54px;
+    }
+
+    @media (min-width: 700px) {
+      .page {
+        padding-left: 42px;
+        padding-right: 42px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+
+    <header>
+      <div class="brand">VIRD</div>
+      <h1>Salavat Hizbi</h1>
+    </header>
+
+    <section class="dua">
+
+      <!-- Arapça metni buraya ekleyeceğiz -->
+
+      <p>
+        بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ
+      </p>
+
+    </section>
+
+    <footer>
+      Vird
+    </footer>
+
+  </main>
+</body>
+</html>
